@@ -1,7 +1,7 @@
 var async   = require('async');
 var express = require('express');
 var util    = require('util');
-
+header('Location: /index.html')
 // create an express webserver
 var app = express.createServer(
   express.logger(),
